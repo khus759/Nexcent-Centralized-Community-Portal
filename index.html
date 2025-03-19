@@ -5,9 +5,10 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>layout templete</title>
-    <link rel="stylesheet" href="./Assets/Css/style.css" type="text/css">
-    <link rel="stylesheet" href="./Assets/Css/utilities.css" type="text/css">
     <link rel="stylesheet" href="./Assets/Css/variables.css" type="text/css">
+    <link rel="stylesheet" href="./Assets/Css/utility.css" type="text/css">
+    <link rel="stylesheet" href="./Assets/Css/style.css" type="text/css">
+
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link
@@ -19,17 +20,19 @@
 <body>
     <header>
         <div class="container">
-            <nav>
-                <a href="index.html" aria-label="nexcent"><img src="./Assets/Images/Logo.svg" alt="nexcent-logo"></a>
-                <ul role="navigation">
+            <nav class="d-flex">
+                <a href="index.html" aria-label="nexcent-logo"><img src="./Assets/Images/Logo.svg"
+                        alt="nexcent-logo"></a>
+                <ul role="navigation" class="d-flex list_decor-none">
                     <li><a href="javascript:(0)">Home</a></li>
                     <li><a href="javascript:(0)">Features</a></li>
                     <li><a href="javascript:(0)">Community</a></li>
                     <li><a href="javascript:(0)">Blog</a></li>
                     <li><a href="javascript:(0)">Pricing</a></li>
-                    <li><a href="javascript:(0)">Register Now</a></li>
+                    <li class="btn btn2 margin-bottom"><a href="javascript:(0)">Register Now <img src="./Assets/Images/Right-white.svg"
+                                alt="right-arrow"></a></li>
                 </ul>
-            </nav>
+            </nav>   
         </div>
     </header>
     <main>
@@ -47,15 +50,17 @@
         </section>
         <section class="our-client">
             <div class="container">
-                <div class="top-section">
+                <div class="top-section text-align-center">
                     <h2>Our Clients</h2>
                     <p>We have been working with some Fortune 500+ clients</p>
-                    <ul>
+                </div>
+                <div class="bottom-section">
+                    <ul class="list_decor-none d-flex">
                         <li><img src="./Assets/Images/our_clients (1).svg" alt="client-logo"></li>
                         <li><img src="./Assets/Images/our_clients (2).svg" alt="client-logo"></li>
-                        <li><img src="./Assets/Images/our_clients (3).svg" alt="client-logo"></li>
-                        <li><img src="./Assets/Images/our_clients (4).svg" alt="client-logo"></li>
                         <li><img src="./Assets/Images/our_clients (5).svg" alt="client-logo"></li>
+                        <li><img src="./Assets/Images/our_clients (4).svg" alt="client-logo"></li>
+                        <li><img src="./Assets/Images/our_clients (3).svg" alt="client-logo"></li>
                         <li><img src="./Assets/Images/our_clients (6).svg" alt="client-logo"></li>
                         <li><img src="./Assets/Images/our_clients (7).svg" alt="client-logo"></li>
                     </ul>
@@ -64,26 +69,26 @@
         </section>
         <section class="manage-community">
             <div class="container">
-                <div class="top-section">
-                    <h2>Manage your entire community in a single system</h2>
+                <div class="top-section text-align-center">
+                    <h2>Manage your entire community <span> in a single system</span></h2>
                     <p>Who is Nextcent suitable for?</p>
                 </div>
-                <div class="community-mid-panel">
-                    <div class="card">
+                <div class="community-mid-panel d-flex">
+                    <div class="card text-align-center">
                         <img src="./Assets/Images/community (2).svg" alt="Membership Organisations-icon">
                         <h3>Membership Organisations</h3>
                         <p>Our membership management software provides full automation of membership renewals and
                             payments</p>
                     </div>
-                    <div class="card">
+                    <div class="card text-align-center">
                         <img src="./Assets/Images/community (3).svg" alt="National Associations-icon">
-                        <h3>Membership Organisations</h3>
+                        <h3>National Associations</h3>
                         <p>Our membership management software provides full automation of membership renewals and
                             payments</p>
                     </div>
-                    <div class="card">
+                    <div class="card text-align-center card3">
                         <img src="./Assets/Images/community (1).svg" alt="Clubs And Groups-icon">
-                        <h3>Membership Organisations</h3>
+                        <h3>Clubs And <span> Groups</span></h3>
                         <p>Our membership management software provides full automation of membership renewals and
                             payments</p>
                     </div>
@@ -212,8 +217,8 @@
                             </figcaption>
                             <a href="javascript:void(0)">Readmore <img src="./Assets/Images/Right-direction.svg"
                                     alt="right-arrow"></a>
+                    </div>
                 </div>
-            </div>
         </section>
         <section class="get-demo">
             <div class="container">
@@ -227,11 +232,11 @@
         <section class="footer-section">
             <div class="container">
                 <div class="logos-section">
-                    <img src="./assets/images/Logo.svg" alt="company-logo">
+                    <img src="./Assets/Images/Logo.svg" alt="company-logo">
                     <p>Copyright © 2020 Landify UI Kit.</p>
                     <p>All rights reserved</p>
                     <ul>
-                        <li><img src="./assets/images/insta.svg" alt="social-media"></li>
+                        <li><img src="./Assets/Images/instagram.svg" alt="social-media"></li>
                         <li><img src="./assets/images/insta.svg" alt="social-media"></li>
                         <li><img src="./assets/images/insta.svg" alt="social-media"></li>
                         <li><img src="./assets/images/insta.svg" alt="social-media"></li>
