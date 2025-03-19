@@ -6,33 +6,31 @@
     background-color: var(--ACCENT-COLOR);
     line-height: 1.044rem;
     text-align: center;
-    padding-block: 0.609rem;
+    padding-block: 0.900rem;
     padding-left: 1.392rem;
     padding-right: 0.142rem;
     font-weight: 500;
     border-radius: 0.174rem;
-   
+    
 }
 
-.btn2 a{
+.btn2 a {
     padding: 1rem;
-    color: #fff;        
+    color: #fff;
 }
 
 .d-flex {
     display: flex;
 }
 
-.text-align-center{
+.text-align-center {
     text-align: center;
 }
 
-.list_decor-none{
+.list_decor-none {
     list-style-type: none;
 }
+
 .margin-bottom {
     margin-bottom: 1rem;
 }
-
-
-
