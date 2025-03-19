@@ -19,6 +19,18 @@
     color: #fff;
 }
 
+.btn3 {
+    display: inline-block;
+    color: var(--PRIMARY-COLOR);
+    background-color: var(--ACCENT-COLOR);
+    line-height: 1.044rem;
+    text-align: center;
+    padding-block: 0.609rem;
+    padding-inline: 1.392rem;
+    font-weight: 500;
+    border-radius: 0.174rem;
+}
+
 .d-flex {
     display: flex;
 }
@@ -29,8 +41,4 @@
 
 .list_decor-none {
     list-style-type: none;
-}
-
-.margin-bottom {
-    margin-bottom: 1rem;
 }

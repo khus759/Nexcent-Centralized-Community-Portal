@@ -40,6 +40,7 @@ h2 {
     max-width: 72.5rem;
     position: relative;
     left: 8.75rem; 
+    
 }
 /* Navigation Start */
 .nexcent{
@@ -83,6 +84,7 @@ h1 span{
 .Home-banner .banner p{
     line-height: 1.044rem;
     margin-top: 1rem;
+    margin-bottom: 1.392rem;
 }
 .Home-banner .banner .left-panel{
     margin-block: 7.001rem;
@@ -93,10 +95,14 @@ h1 span{
     margin-block: 4.177rem;
     margin-right: var(--MARGIN-INLINE);  
 }
+.dot {
+    margin-inline: 38rem;
+    margin-bottom: 1rem;
+}
 /* Home Banner End*/
 
  
-/* our-client */
+/* our-client Start*/
 .our-client .top-section{
     margin-inline: 7.178rem;
 }
@@ -111,10 +117,12 @@ h1 span{
 .our-client .bottom-section ul{
     margin-inline: var(--MARGIN-INLINE);
     justify-content: space-between;
+    align-items: center;
     padding-top: 1.559rem;
     padding-bottom: 1.528rem;
     margin-bottom: 1.553rem;
 }
+/* our-client End*/
 
 /* manage-community */
 .manage-community .top-section{
