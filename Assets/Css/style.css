@@ -131,33 +131,188 @@ h1 span{
 .manage-community{
     margin-bottom: 2.088rem; 
 }
-.manage-community .top-section h2 span{
-    /* display: block; */
+.manage-community .community-mid-panel{
+    margin-bottom: 3.088rem;
 }
 .manage-community .top-section h2{
     margin-bottom: 0.348rem;
+
+}
+.manage-community .top-section p{
+    margin-bottom: 0.348rem;
 }
 .community-mid-panel .card{
-    justify-content: space-between;
+    justify-content: space-evenly;
     margin-inline: var(--MARGIN-INLINE);
-    gap: 5.547rem;
-    padding-block: 1.044rem;
-    border: 5px solid black;
-    /* box-shadow: 10px 10px 5px 12px lightblue;  */
+    gap:0.348rem;
+    padding-bottom: 1.044rem;
+    box-shadow: 0.01rem 0.01rem 2rem 0.174rem var(--BORDER-SHADOW);
 }
 .community-mid-panel .card h3 span{
+    margin-inline: 1rem; 
+}
+.community-mid-panel .card h3 {
+    margin-top: 1rem;
     font-size: var(--FONT-19_49);
-    margin-bottom: 0.348rem;
-    margin-inline: 1rem;
-    /* display: inline-block; */
+    margin-bottom: 0%;
+   
 }
 .community-mid-panel .card p{
     margin-inline: 1.044rem;
+    margin-bottom: 1.044rem;
     font-size: var(--FONT-9_74);
     font-weight: 400;
     line-height: 0.87rem;
+    margin-top: 0.348rem;   
+}
+/* community-bottom-panel */
+.community-bottom-panel .left_panel img{
+    margin-left: var(--MARGIN-INLINE);
+    margin-right: 7rem;
+    margin-bottom: 2rem;
+    margin-top: 3.547rem;
+    margin-bottom: 3.547rem;
+}
+.community-bottom-panel .right_panel{
+    margin-right: var(--MARGIN-INLINE);
+    margin-left: 1rem;
+    margin-top: 3.547rem;
+    margin-bottom: 3.547rem;
+}
+.community-bottom-panel .right_panel p{
+    font-weight: 400;
+    font-size: var(--FONT-9_74);
+    margin-right: 5.8rem;
+    margin-bottom: 1.392rem;
     
+}
+.community-bottom-panel .right_panel h2, span{
+    display: block;
+}
+/* helping-business-section */
+.helping-business .container{
+    background-color: var(--SECONDRY-COLOR);
+}
+.helping-business .container .left-panel h2 span{
+    color: var(--ACCENT-COLOR);
+}
+.helping-business .container .left-panel h2{
+    margin-bottom: 0.348rem;
+}
+.helping-business .container .left-panel p{
+    color: #18191F;
+}
+.helping-business .container .left-panel {
+    margin-block: 3.699rem;
+    margin-left: var(--MARGIN-INLINE);
+}
+.helping-business .container .right-panel{
+    margin-block: 2.784rem;
+    margin-left: 15rem;
+    margin-right: var(--MARGIN-INLINE);
+}
+.helping-business .container .right-panel ul li span{
+    display: block;  
+}
+.helping-business .container .right-panel ul li {
+    gap: 1rem;
+}
+.helping-business .container .right-panel .list2, .list1{
+    gap: 1.305rem;
+}
+.helping-business .container .right-panel .list2 .list1:last-child{
+    padding-right: 7rem;
+}
+.helping-business .container .right-panel .list1{
+    margin-top: 0.7rem;
+    margin-bottom: 2rem;
+}
+.helping-business .container .right-panel ul p {
+    color: var(--DARK-TEXT-COLOR); 
+    font-weight: 700;
+    font-size: var(--FONT-19_49);
+}
+
+.helping-business .container .right-panel ul p span {
+    color: var(--BODY-TEXT-COLOR);
+    font-weight: 400;
+    font-size: 1rem;
     
 }
 
+/* Design-footer section */
 
+.Design-footer .container .left-panel img{
+    margin-left: var(--MARGIN-INLINE);
+    margin-right: 7rem;
+    margin-bottom: 2rem;
+    margin-top: 3.547rem;
+    margin-bottom: 3.547rem; 
+}
+
+.Design-footer .container .right-panel {
+    margin-right: var(--MARGIN-INLINE);
+    margin-left: 1rem;
+    margin-top: 3.547rem;
+    margin-bottom: 3.547rem;
+}
+
+.Design-footer .container .right-panel p {
+    font-weight: 400;
+    font-size: var(--FONT-9_74);
+    margin-right: 5.8rem;
+    margin-bottom: 1.392rem;
+    
+}
+
+/* Testimonial Section */
+.testmonials .container{
+    background-color: var(--SECONDRY-COLOR);
+}
+.testmonials .container .left-panel img{
+    margin-left: var(--MARGIN-INLINE);
+    margin-right: 0.2rem;
+    margin-bottom: 2rem;
+    margin-top: 1.392rem;
+    margin-bottom:1.392rem; 
+}
+.testmonials .container .right-panel {
+    margin-right: var(--MARGIN-INLINE);
+    margin-left: 1rem;
+    margin-top: 1.409rem;
+    margin-bottom: 1.409rem;
+}
+.testmonials .container .right-panel blockquote p{
+    
+    font-weight: 500;
+    font-size: var(--FONT-11_14);
+    line-height: 1.044rem;
+    /* margin-right: 5.8rem;
+    margin-bottom: 1.392rem; */
+}
+.testmonials .container .right-panel .name{
+    font-weight: 600;
+    font-size: var(--FONT-13_92);
+    color: var(--ACCENT-COLOR);
+    margin-top: var(--FONT-13_92);
+    margin-bottom: 0.348rem;
+    line-height: 1.218rem;
+}
+.testmonials .container .right-panel .comment {
+    margin-bottom: var(--MARGIN-BOTTOM);
+}
+ .testmonials .container .right-bottom a{
+    color: var(--ACCENT-COLOR);
+} 
+.testmonials .container .right-bottom ul,li{
+    padding-right: 2.950rem;
+}
+.testmonials .container .right-bottom ul,li:last-child{
+    padding-right: 1.950rem;
+}
+
+/* caring-marketing Section*/
+.caring-marketing .top-panel h2{
+    margin-top: 2.088rem;
+    margin-bottom: var(--FONT-11_14);
+}
