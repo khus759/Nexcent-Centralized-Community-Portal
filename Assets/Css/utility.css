@@ -45,3 +45,13 @@
 .justify-content-center{
     justify-content: center;
 }
+.caring-cart{
+    background-color: var(--SECONDRY-COLOR);
+    border-radius: 0.348rem;
+    box-shadow: 0 0.4rem 0.3rem -0.1rem var(--BORDER-SHADOW);
+    padding-bottom: 1rem; 
+}
+
+
+
+

@@ -3,26 +3,26 @@
     --FONT-FAMILY: "Inter", sans-serif;
 
     /* Color */
-    --ACCENT-COLOR:#4CAF4F;
+    --ACCENT-COLOR: #4CAF4F;
     --PRIMARY-COLOR: #fff;
     --SECONDRY-COLOR: #F5F7FA;
     --DARK-TEXT-COLOR: #4D4D4D;
     --BODY-TEXT-COLOR: #717171;
-    --BORDER-SHADOW:#ABBED133;
+    --BORDER-SHADOW: #ABBED133;
+    --FOOTER-COLOR: #263238;
+    --FORM-COLOR:#D9DBE1;
 
     /* Font-Size */
-    --FONT-11_14:0.696;
+    --FONT-11_14: 0.696rem;
     --FONT-44_55: 2.784rem;
     --FONT-25_06: 1.566rem;
     --FONT-19_49: 1.218rem;
     --FONT-9_74: 0.609rem;
     --FONT-13_92: 0.87rem;
-    
+
     /* Utilities */
     --ROW-GAP: 0.334rem;
     --TITTLE-MARGIN-END: 3.75rem;
     --MARGIN-INLINE: 6.264rem;
     --MARGIN-BOTTOM: 1.392rem
-    
 }
-

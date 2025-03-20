@@ -15,6 +15,10 @@ a {
     text-decoration: none;
     color: var(--DARK-TEXT-COLOR);
 }
+a:hover {
+    color: #6fdc72;
+    transition: color 0.3s ease; 
+}
 
 h1,
 h2,
@@ -22,10 +26,7 @@ h3 {
     margin-bottom: 1.62rem;
     color: var(--DARK-TEXT-COLOR);
 }
-/* p,
-li {
-    margin-bottom: 1.25rem;
-} */
+
 
 :where(h1, h2, h3, p):last-child {
     margin-bottom: 0;
@@ -210,12 +211,7 @@ h1 span{
     margin-left: 15rem;
     margin-right: var(--MARGIN-INLINE);
 }
-.helping-business .container .right-panel ul li span{
-    display: block;  
-}
-.helping-business .container .right-panel ul li {
-    gap: 1rem;
-}
+
 .helping-business .container .right-panel .list2, .list1{
     gap: 1.305rem;
 }
@@ -319,6 +315,122 @@ h1 span{
     font-weight: 400;
     font-size: var(--FONT-11_14);
     line-height: 1.011rem;
-    margin-inline: 17.663rem;
+    margin-inline: 21.950rem;
     margin-bottom: 0.696rem;
 }
+.caring-marketing .cart-panel .cart figcaption{
+    padding-inline: 1.987rem;
+    padding-block: 0.696rem;
+    font-weight: 600;
+    line-height: 1.218rem;
+    z-index: 1rem;
+    max-width:19rem;
+    max-height: fit-content; 
+}
+.caring-marketing .cart-panel .cart {
+    margin: 0; 
+    /* background-color: aqua; */
+}
+
+.caring-marketing .cart-panel .cart .cart1 {
+    margin-right: 0.08rem; 
+}
+
+.caring-marketing .cart-panel .cart .cart2 {
+    margin-inline: 0.15rem; 
+}
+
+.caring-marketing .cart-panel .cart .cart3 {
+    margin-left: 0.08rem; 
+}
+.caring-marketing .cart-panel {
+    margin-left: var(--MARGIN-INLINE);
+    margin-right: var(--MARGIN-INLINE);
+    margin-bottom: 5.913rem;
+}
+.caring-marketing .cart-panel .cart{
+    padding-left: 1.043rem;
+    padding-right: 1.436rem;
+    padding-bottom: 1.044rem;  
+}
+.caring-marketing .cart-panel .cart a{
+    color: var(--ACCENT-COLOR);
+}
+
+/* Footer-Get-Demo-Section */
+.get-demo{
+    background-color: var(--SECONDRY-COLOR);
+}
+.get-demo h2{
+    color: var( --FOOTER-COLOR);
+    margin-inline: 16.281rem;
+    text-align: center;
+    font-size: 4rem;
+    font-weight: 600;
+    line-height: 4.75rem;
+    padding-top: 2rem;
+    padding-bottom: 2rem;    
+}
+.get-demo a{
+    margin-inline: 31.281rem;
+    margin-bottom: 2.625rem;
+}
+/* footer-Section*/
+.container2 {
+    background-color: var(--FOOTER-COLOR);
+    color: var(--PRIMARY-COLOR);
+}
+.container2 .logos-section {
+    margin-left: 10.313rem;
+    padding-top: 4rem;
+    margin-right: 7.813rem;
+}
+.container2 .logos-section ul{
+    margin-bottom: 4.646rem;
+}
+.container2 .logos-section li{
+    gap: 0.03rem;
+}
+.container2 .logos-section p{
+    font-weight: 400;
+    font-size: 0.875rem;
+    margin-top: 2.629rem;
+    margin-bottom: 2.5rem;
+}
+.container2 .logos-section p span{
+    margin-top: 0.5rem;
+}
+.container2 .left-panel h3{
+    font-weight: 600;
+    font-size: 1.25rem;
+    
+}
+.container2 .left-panel{
+    padding-top: 4rem;
+    margin-right: 2rem;
+}
+
+.left-panel p {
+    margin-bottom: 0.5rem; 
+    margin-top: 1rem;
+}
+.company {
+    margin-right: 3rem; 
+}
+.up-to-date form {
+    margin-top: 1rem;  
+}
+
+ .up-to-date input[type="email"] {
+    padding: 0.8rem 1rem;  
+    width: 100%;            
+    font-size: 1rem;        
+    margin-top: 0.5rem;     
+    background-color: var(--FORM-COLOR);
+    border-radius: 0.5rem;
+    margin-top: 0.5rem;
+    background-image: url('../Images/send.svg'); 
+    background-repeat: no-repeat;
+    background-position: right 0.8rem center; 
+} 
+
