@@ -39,28 +39,27 @@ h2 {
  .container {
     max-width: 72.5rem;
     position: relative;
-    left: 8.75rem; 
+    left: 8.75rem;
+    margin-right: var(--MARGIN-INLINE); 
     
 }
 /* Navigation Start */
-.nexcent{
+ .nexcent{
     margin-left: var(--MARGIN-INLINE);
     margin-block: 1.314rem;
+    margin-right: 13rem;
 }
+
 header ul li{
     font-weight: 500;
     margin-block: 1.305rem;
-    justify-content: space-evenly;
-}
-header ul{
-    gap: 1.392rem;
-    margin-left: 15.696rem;
-    margin-right: 7.721rem; 
-}
+    justify-content: space-between;
+}  
 header ul li:last-child{
     margin-top: 0.5rem;
-    margin-left: 0.3rem;
-}
+    margin-left: 0%rem;
+} 
+
 /* Navigation End */
 
 /* Home Banner Start*/
@@ -311,8 +310,15 @@ h1 span{
     padding-right: 1.950rem;
 }
 
-/* caring-marketing Section*/
+/* caring-marketing Section */
 .caring-marketing .top-panel h2{
     margin-top: 2.088rem;
-    margin-bottom: var(--FONT-11_14);
+    margin-bottom: 0.348rem;
+}
+.caring-marketing .top-panel p {
+    font-weight: 400;
+    font-size: var(--FONT-11_14);
+    line-height: 1.011rem;
+    margin-inline: 17.663rem;
+    margin-bottom: 0.696rem;
 }
