@@ -302,10 +302,6 @@ span {
     font-weight: 700;
     color: #222;
 }
-/* .helping-business .right-panel ul li img{
-    width:40px;
-    height:40px;
-} */
 
 .helping-business .right-panel ul li span{
     display: block;
@@ -463,11 +459,12 @@ li {
     margin-inline: 1.109rem;
     flex-grow: 1;
     font-weight: 600;
+    font-size: var(--FONT-13_92);
     line-height: 1.218rem;
     background: var(--SECONDRY-COLOR);
     box-shadow: 0px 2px 4px var(--BORDER-SHADOW);
     text-align: center;
-    padding: 1rem;
+    padding: 1.5rem;
     border-radius: 0.348rem;
     display: flex;
     flex-direction: column;
