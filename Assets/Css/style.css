@@ -43,28 +43,29 @@ h2 {
 
 .container {
     max-width: 72.5rem;
-    position: relative;
-    left: 8.75rem;
-    margin-right: var(--MARGIN-INLINE);
-
+    margin-inline: var(--MARGIN-INLINE);
 }
 
 /* Navigation Start */
-.nexcent {
-    margin-left: var(--MARGIN-INLINE);
-    margin-block: 1.314rem;
-    margin-right: 13rem;
+header{
+    margin-inline: var(--MARGIN-INLINE);
 }
-
+.nexcent {
+    margin-block: 1.314rem;
+}
+header ul{
+    margin-left: 15.738rem;
+}
 header ul li {
     font-weight: 500;
     margin-block: 1.305rem;
     justify-content: space-between;
+    margin-left: 1.044rem;
+    
 }
-
 header ul li:last-child {
     margin-top: 0.5rem;
-    margin-left: 0%rem;
+    margin-right: 1.392rem;  
 }
 
 /* Navigation End */
@@ -109,7 +110,7 @@ h1 span {
 }
 
 .dot {
-    margin-inline: 38rem;
+    margin-inline: 39rem;
     padding-bottom: 1.5rem;
 }
 
@@ -117,6 +118,10 @@ h1 span {
 
 
 /* our-client Start*/
+.our-client {
+    margin-inline: var(--MARGIN-INLINE);
+}
+
 .our-client .top-section {
     margin-inline: 7.178rem;
 }
@@ -143,12 +148,14 @@ h1 span {
 /* our-client End*/
 
 /* manage-community */
-.manage-community .top-section {
-    margin-inline: 19.534rem;
-}
 
 .manage-community {
     margin-bottom: 2.088rem;
+    margin-inline: var(--MARGIN-INLINE);
+}
+
+.manage-community .top-section {
+    margin-inline: 19.534rem;
 }
 
 .manage-community .community-mid-panel {
@@ -164,12 +171,33 @@ h1 span {
     margin-bottom: 0.348rem;
 }
 
+/* community-mid-panel */
 .community-mid-panel .card {
-    justify-content: space-evenly;
-    margin-inline: var(--MARGIN-INLINE);
+    justify-content: space-between;
+    padding-inline: var(--MARGIN-INLINE);
     gap: 0.348rem;
+    border-radius: 0.348rem;
+    padding-inline: 1.392rem;
+    padding-block: 1.044rem;
     padding-bottom: 1.044rem;
     box-shadow: 0.01rem 0.01rem 2rem 0.174rem var(--BORDER-SHADOW);
+}
+
+.community-mid-panel .card1 {
+    margin-left: 9rem;
+}
+
+.community-mid-panel .card3 {
+    margin-right: 9rem;
+}
+
+.community-mid-panel .card2 {
+    margin-inline: 2rem;
+
+}
+
+.community-mid-panel .card2 h3 {
+    padding-inline: 1.5rem;
 }
 
 .community-mid-panel .card h3 span {
@@ -179,41 +207,47 @@ h1 span {
 .community-mid-panel .card h3 {
     margin-top: 1rem;
     font-size: var(--FONT-19_49);
-    margin-bottom: 0%;
+    margin-bottom: 0.5rem;
 
 }
 
 .community-mid-panel .card p {
-    margin-inline: 1.044rem;
-    margin-bottom: 1.044rem;
-    font-size: var(--FONT-9_74);
+    font-size: 0.875rem;
     font-weight: 400;
-    line-height: 0.87rem;
+    line-height: 1.25rem;
     margin-top: 0.348rem;
 }
 
+
 /* community-bottom-panel */
+.community-bottom-panel {
+    margin-inline: var(--MARGIN-INLINE);
+}
+
 .community-bottom-panel .left_panel img {
-    margin-left: var(--MARGIN-INLINE);
-    margin-right: 7rem;
     margin-bottom: 2rem;
-    margin-top: 3.547rem;
-    margin-bottom: 3.547rem;
+    margin-block: 5.156rem;
 }
 
 .community-bottom-panel .right_panel {
-    margin-right: var(--MARGIN-INLINE);
-    margin-left: 1rem;
-    margin-top: 3.547rem;
-    margin-bottom: 3.547rem;
+    margin-top: 5.156rem;
 }
 
 .community-bottom-panel .right_panel p {
     font-weight: 400;
-    font-size: var(--FONT-9_74);
-    margin-right: 5.8rem;
-    margin-bottom: 1.392rem;
+    line-height: 1.25rem;
+    font-size: 0.875rem;
+    margin-bottom: 2rem;
+}
 
+.community-bottom-panel .right_panel a {
+    margin-bottom: 3.547rem;
+}
+
+.community-bottom-panel .right_panel h2 {
+    font-size: 2.25rem;
+    line-height: 2.75rem;
+    margin-bottom: 1rem;
 }
 
 .community-bottom-panel .right_panel h2,
@@ -222,6 +256,10 @@ span {
 }
 
 /* helping-business-section */
+.helping-business {
+    margin-inline: var(--MARGIN-INLINE);
+}
+
 .helping-business .container {
     background-color: var(--SECONDRY-COLOR);
 }
@@ -241,12 +279,14 @@ span {
 .helping-business .container .left-panel {
     margin-block: 3.699rem;
     margin-left: var(--MARGIN-INLINE);
+    
 }
+    
 
 .helping-business .container .right-panel {
     margin-block: 2.784rem;
-    margin-left: 15rem;
-    margin-right: var(--MARGIN-INLINE);
+    margin-left: var(--MARGIN-INLINE);
+    
 }
 
 .helping-business .container .right-panel .list2,
@@ -273,52 +313,63 @@ span {
     color: var(--BODY-TEXT-COLOR);
     font-weight: 400;
     font-size: 1rem;
+} 
 
+/* How-Design-footer section */
+.design-footer {
+    margin-inline: var(--MARGIN-INLINE);
 }
 
-/* Design-footer section */
+.design-footer .container {
+    margin-bottom: 2.088rem;
+    margin-top: 2.088rem;
+}
 
-.Design-footer .container .left-panel img {
+.design-footer .container .left-panel img {
+    margin-top: 2.088rem;
     margin-left: var(--MARGIN-INLINE);
-    margin-right: 7rem;
-    margin-bottom: 2rem;
-    margin-top: 3.547rem;
-    margin-bottom: 3.547rem;
+
 }
 
-.Design-footer .container .right-panel {
+.design-footer .container .right-panel {
+    margin-left: 2.152rem;
     margin-right: var(--MARGIN-INLINE);
-    margin-left: 1rem;
-    margin-top: 3.547rem;
-    margin-bottom: 3.547rem;
 }
 
-.Design-footer .container .right-panel p {
+.design-footer .container .right-panel h2 {
+    margin-top: 2.677rem;
+}
+
+.design-footer .container .right-panel p {
+    margin-top: 0.696rem;
     font-weight: 400;
+    line-height: 0.87rem;
     font-size: var(--FONT-9_74);
-    margin-right: 5.8rem;
-    margin-bottom: 1.392rem;
+    margin-bottom: 2rem;
+    margin-right: 8.875rem;
 
 }
 
 /* Testimonial Section */
+.testmonials {
+    margin-inline: var(--MARGIN-INLINE);
+}
+
 .testmonials .container {
     background-color: var(--SECONDRY-COLOR);
+    
 }
 
 .testmonials .container .left-panel img {
     margin-left: var(--MARGIN-INLINE);
     margin-right: 0.2rem;
-    margin-bottom: 2rem;
-    margin-top: 1.392rem;
-    margin-bottom: 1.392rem;
+    margin-block: 1.392rem;
 }
 
 .testmonials .container .right-panel {
     margin-right: var(--MARGIN-INLINE);
     margin-left: 1rem;
     margin-top: 1.409rem;
-    margin-bottom: 1.409rem;
 }
 
 .testmonials .container .right-panel blockquote p {
@@ -326,8 +377,9 @@ span {
     font-weight: 500;
     font-size: var(--FONT-11_14);
     line-height: 1.044rem;
-    /* margin-right: 5.8rem;
-    margin-bottom: 1.392rem; */
+    margin-bottom: var(--FONT-11_14);
+    margin-top: 1.409rem;
+
 }
 
 .testmonials .container .right-panel .name {
@@ -340,24 +392,29 @@ span {
 }
 
 .testmonials .container .right-panel .comment {
+    font-weight: 400;
     margin-bottom: var(--MARGIN-BOTTOM);
 }
 
 .testmonials .container .right-bottom a {
     color: var(--ACCENT-COLOR);
-}
+} 
+.testmonials .container .right-bottom a:hover{
+    color: #6fdc72;
+    transition: color 0.3s ease;
+}  
 
 .testmonials .container .right-bottom ul,
 li {
-    padding-right: 2.950rem;
+    padding-right: 1.784rem;
 }
 
-.testmonials .container .right-bottom ul,
-li:last-child {
-    padding-right: 1.950rem;
-}
 
 /* caring-marketing Section */
+.caring-marketing {
+    margin-inline: var(--MARGIN-INLINE);
+}
+
 .caring-marketing .top-panel h2 {
     margin-top: 2.088rem;
     margin-bottom: 0.348rem;
@@ -383,7 +440,7 @@ li:last-child {
 
 .caring-marketing .cart-panel .cart {
     margin: 0;
-    /* background-color: aqua; */
+    
 }
 
 .caring-marketing .cart-panel .cart .cart1 {
@@ -401,7 +458,7 @@ li:last-child {
 .caring-marketing .cart-panel {
     margin-left: var(--MARGIN-INLINE);
     margin-right: var(--MARGIN-INLINE);
-    margin-bottom: 5.913rem;
+    margin-bottom: 3.342rem;
 }
 
 .caring-marketing .cart-panel .cart {
@@ -413,15 +470,23 @@ li:last-child {
 .caring-marketing .cart-panel .cart a {
     color: var(--ACCENT-COLOR);
 }
+.caring-marketing .cart-panel .cart a:hover{
+    color: #6fdc72;
+    transition: color 0.3s ease;
+}
 
 /* Footer-Get-Demo-Section */
+.footer-section {
+    margin-inline: var(--MARGIN-INLINE);
+}
+
 .get-demo {
     background-color: var(--SECONDRY-COLOR);
 }
 
 .get-demo h2 {
     color: var(--FOOTER-COLOR);
-    margin-inline: 16.281rem;
+    margin-inline: 12.029rem;
     text-align: center;
     font-size: 4rem;
     font-weight: 600;
@@ -431,7 +496,7 @@ li:last-child {
 }
 
 .get-demo a {
-    margin-inline: 31.281rem;
+    margin-inline: 29.281rem;
     margin-bottom: 2.625rem;
 }
 
@@ -439,51 +504,85 @@ li:last-child {
 .container2 {
     background-color: var(--FOOTER-COLOR);
     color: var(--PRIMARY-COLOR);
+    
 }
 
 .container2 .logos-section {
     margin-left: 10.313rem;
     padding-top: 4rem;
     margin-right: 7.813rem;
+    
 }
 
 .container2 .logos-section ul {
-    margin-bottom: 4.646rem;
-}
+    margin-bottom: 3.28rem;
 
-.container2 .logos-section li {
-    gap: 0.03rem;
 }
 
 .container2 .logos-section p {
     font-weight: 400;
-    font-size: 0.875rem;
+    font-size: var(--FONT-9_74);
     margin-top: 2.629rem;
-    margin-bottom: 2.5rem;
+    margin-bottom: 2.5rem;  
 }
 
-.container2 .logos-section p span {
+.container2 .logos-section a span {
     margin-top: 0.5rem;
 }
+/*  */
+.social-icons {
+    display: flex;
+    gap: 0.6rem; /* Minimal spacing between icons */
+    margin-bottom: 3.28rem;
+}
+
+.social-icons a {
+    display: inline-block; 
+    transition: transform 0.2s ease;
+}
+
+.social-icons a img {
+    width: 20px;  
+    height: 20px; 
+    display: block; 
+}
+.social-icons a:hover {
+    transform: scale(1.1); 
+}
+/*  */
+
 
 .container2 .left-panel h3 {
     font-weight: 600;
     font-size: 1.25rem;
-
 }
 
 .container2 .left-panel {
     padding-top: 4rem;
-    margin-right: 2rem;
+    margin-right: 7.178rem;
+    margin-left: 5.438rem;
 }
 
-.left-panel p {
-    margin-bottom: 0.5rem;
-    margin-top: 1rem;
+.container2 .left-panel a {
+    display: block;         
+    margin-bottom: 0.5rem;  
+    margin-top: 1rem;       
+    font-weight: 400;
+    font-size: var(--FONT-9_74);
+    text-decoration: none;  
+    color: #fff;            
 }
+
+.container2 .left-panel a:hover {
+    color: #00aaff;         
+}
+
 
 .company {
-    margin-right: 3rem;
+    margin-right: 1.305rem;
+}
+.support{
+    margin-right: 1.305rem; 
 }
 
 .up-to-date form {
@@ -491,13 +590,13 @@ li:last-child {
 }
 
 .up-to-date input[type="email"] {
-    padding: 0.8rem 1rem;
+    padding: 0.3rem 0.2rem;
     width: 100%;
     font-size: 1rem;
-    margin-top: 0.5rem;
+    margin-top: 0.2rem;
     background-color: var(--FORM-COLOR);
     border-radius: 0.5rem;
-    margin-top: 0.5rem;
+    margin-top: 0.1rem;
     background-image: url('../Images/send.svg');
     background-repeat: no-repeat;
     background-position: right 0.8rem center;

@@ -30,7 +30,18 @@
     font-weight: 500;
     border-radius: 0.174rem;
 }
-
+.dis-block{
+    display: block;
+}
+.btn4{
+    
+    line-height: 1.044rem;
+    padding-block: 0.609rem;
+    padding-left: 1.392rem;
+    padding-right: 1.436rem;
+    font-weight: 500;
+    border-radius: 0.174rem;
+}
 .d-flex {
     display: flex;
 }
