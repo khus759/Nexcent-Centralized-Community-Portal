@@ -184,7 +184,7 @@
     }
 
     .manage-community .top-section {
-        margin-inline: 1rem;
+        margin-inline: 0.5rem;
         text-align: center;
     }
 
@@ -215,15 +215,15 @@
     }
 
     .community-bottom-panel .left_panel img {
-        width: 100%; /* Full-width for better responsiveness */
+        width: 100%; 
         height: auto;
-        object-fit: cover; /* Ensures image fills nicely */
+        object-fit: cover; 
         border-radius: 0.5rem;
     }
 
     .community-bottom-panel .right_panel {
         width: 100%; 
-        max-width: 400px; /* Keeps content aligned */
+        max-width: 400px; 
     }
 
     .community-bottom-panel .right_panel h2 {
@@ -249,7 +249,7 @@
     }
 
     .community-bottom-panel .left_panel img {
-        max-height: 500px; /* Larger image for better visibility on tablets */
+        max-height: 600px; 
         display: flex;
         flex-direction: column;
     }
@@ -267,19 +267,19 @@
 /* Mobile View (max-width: 768px) */
 @media (max-width: 768px) {
     .community-bottom-panel {
-        margin-inline: 1rem; /* More compact layout */
+        margin-inline: 1rem;
        
     }
 
     .community-bottom-panel .left_panel img {
-        max-height: 800px;  /* Larger image for better clarity on mobile */
+        max-height: 400px;  
         display: flex;
         flex-direction: column;
         margin-block: 1rem;
     }
 
     .community-bottom-panel .right_panel h2 {
-        font-size: 2rem;         /* Slightly larger heading for emphasis */
+        font-size: 2rem;         
         line-height: 2.5rem;
     }
 
@@ -288,11 +288,311 @@
     }
 
     .community-bottom-panel .right_panel a {
-        width: 100%;         /* Full-width button for better touch targets */
-        padding: 0.8rem 0;   /* Adjusted padding */
+        width: 55%;         
+        padding: 0.8rem 0;   
+    }
+}
+/* Helping-business */
+
+/* Tablet View (max-width: 990px) */
+@media (max-width: 990px) {
+    .helping-business .container {
+        display: flex;
+        flex-direction: column;
+        text-align: center;  
+    }
+
+    .helping-business .container .left-panel {
+        margin-block: 2rem;
+        margin-left: 0;      
+    }
+
+    .helping-business .container .right-panel {
+        margin-left: 0;
+        width: 100%; /* Ensures full width for better layout */
+    }
+
+    .helping-business .right-panel ul {
+        display: grid;  
+        grid-template-columns: 1fr;  
+        gap: 20px;
+        padding-top: 30px;
+        padding-inline: 1rem; /* Added padding to improve spacing */
     }
 }
 
+/* Mobile View (max-width: 768px) */
+@media (max-width: 768px) {
+    .helping-business .container .left-panel h2 {
+        font-size: 1.8rem;
+        line-height: 2.3rem;
+    }
 
-/* foooter section */
+    .helping-business .container .left-panel p {
+        font-size: 1rem;
+    }
+
+    .helping-business .right-panel ul li {
+        font-size: 24px; 
+        display: flex;
+        align-items: center;
+        gap: 10px;  /* Ensures content inside `li` is spaced */
+    }
+}
+
+/* Small Screen View (max-width: 575px) */
+@media (max-width: 575px) {
+    .helping-business .container {
+        padding: .5rem;  
+    }
+
+    .helping-business .right-panel ul {
+        display: grid;  
+        grid-template-columns: 1fr;  
+        gap: 15px;
+    }
+
+    .helping-business .right-panel ul li {
+        font-size: 20px;  
+        gap: 5px;
+        align-items: center;
+        display: flex; /* Ensures list items are visible */
+    }
+
+    .helping-business .container .left-panel h2 {
+        font-size: 1.5rem;
+        margin-bottom: 0.5rem;
+    }
+
+    .helping-business .container .left-panel p {
+        font-size: 0.9rem;
+    }
+}
+
+/* Design footer */
+@media (max-width: 990px) {
+    .design-footer .container {
+        flex-direction: column;
+        text-align: center;  /* Centers text for better visual flow */
+    }
+
+    .design-footer .container .left-panel img {
+        margin-left: 0;
+        width: 90%; 
+    }
+
+    .design-footer .container .right-panel {
+        margin-left: 0;
+        margin-right: 0;
+    }
+
+    .design-footer .container .right-panel p {
+        margin-right: 0;
+        
+    }
+}
+
+/* Mobile View (max-width: 768px) */
+@media (max-width: 768px) {
+    .design-footer .container .right-panel h2 {
+        font-size: 1.8rem;
+        line-height: 2.3rem;
+    }
+
+    .design-footer .container .right-panel p {
+        font-size: 1rem;
+        font-weight: 400;
+        line-height: 0.87rem;
+    }
+}
+
+/* Small Screen View (max-width: 575px) */
+@media (max-width: 575px) {
+    .design-footer .container {
+        padding: 1rem;  /* Add padding for small screens */
+    }
+
+    .design-footer .container .right-panel h2 {
+        font-size: 1.5rem;
+        margin-bottom: 0.5rem;
+    }
+
+    .design-footer .container .right-panel p {
+        font-weight: 400;
+        line-height: 0.87rem;
+        font-size: var(--FONT-9_74);
+    }
+
+    .design-footer .container .left-panel img {
+        width: 100%; 
+        margin-top: 1rem;
+    }
+}
+
+/* Testimonials Section */
+/* Tablet View (max-width: 990px) */
+@media (max-width: 990px) {
+    .testmonials .container {
+        display: flex;
+        flex-direction: column;
+        text-align: center;
+        padding: 2rem 1rem;
+    }
+
+    .testmonials .container .left-panel img {
+        margin-left: 0;
+        margin-right: 0;
+        width: 100%;
+    }
+
+    .testmonials .container .right-panel {
+        margin-left: 0;
+        margin-right: 0;
+        margin-top: 1rem;
+    }
+
+    .testmonials .container .right-panel blockquote p {
+        font-size: 1rem;
+        line-height: 1.5rem;
+        margin-top: 1rem;
+        margin-bottom: 1rem;
+    }
+
+    .testmonials .container .right-panel .name {
+        font-size: 1.2rem;
+        margin-top: 1rem;
+        margin-bottom: 0.5rem;
+    }
+
+    .testmonials .container .right-bottom ul {
+        display: grid;
+        grid-template-columns: repeat(3, 1fr); 
+        gap: 20px; 
+        padding-right: 0;
+        text-align: center;
+    }
+
+    .testmonials .container .right-bottom a {
+        display: block; 
+        margin-top: 1rem;
+    }
+}
+
+/* Mobile View (max-width: 768px) */
+@media (max-width: 768px) {
+    .testmonials .container .left-panel img {
+        width: 80%;
+        margin: 0 auto;
+    }
+
+    .testmonials .container .right-panel blockquote p {
+        font-size: 0.9rem;
+        line-height: 1.3rem;
+    }
+
+    .testmonials .container .right-panel .name {
+        font-size: 1rem;
+    }
+
+    .testmonials .container .right-bottom ul {
+        grid-template-columns: repeat(2, 1fr); /* 2 logos in one row */
+        gap: 15px;
+    }
+
+    .testmonials .container .right-bottom a {
+        margin-top: 1rem;
+    }
+}
+
+/* Small Screen View (max-width: 575px) */
+@media (max-width: 575px) {
+    .testmonials .container {
+        padding: 1rem 0.5rem;
+    }
+
+    .testmonials .container .left-panel img {
+        width: 100%;
+        margin-block: 1rem;
+    }
+
+    .testmonials .container .right-panel blockquote p {
+        font-size: 0.85rem;
+        line-height: 1.2rem;
+        margin-bottom: 0.8rem;
+    }
+
+    .testmonials .container .right-panel .name {
+        font-size: 0.95rem;
+    }
+
+    .testmonials .container .right-bottom ul {
+        display: grid;
+        grid-template-columns: repeat(2, 1fr); /* 3 logos in a row */
+        gap: 8px;
+        text-align: center;
+    }
+
+    .testmonials .container .right-bottom a {
+        display: block;
+        text-align: center;
+        margin-top: 1rem;
+        width: 100%; 
+    }
+}
+
+/* Caring Marketing */
+@media (max-width: 990px) {
+    .card-wrapper {
+        flex-direction: column; /* Stack cards vertically */
+        gap: 20px;
+    }
+
+    .card-wrapper .card {
+        width: 100%; /* Full width for each card */
+    }
+
+    .card-wrapper .card img {
+        width: 100%; /* Image scales properly */
+        height: auto; /* Maintain aspect ratio */
+    }
+
+    .text-content {
+        margin-top: -50px; /* Adjust position for text overlay */
+        padding: 1rem;
+        width: 90%; /* Ensures text content fits within card */
+        box-sizing: border-box;
+    }
+}
+
+@media (max-width: 768px) {
+    .text-content {
+        margin-top: -30px; 
+        padding: 0.8rem;
+        width: 100%; /* Ensures text fully adjusts */
+        font-size: var(--FONT-11_14);
+    }
+
+    .caring-marketing .top-panel p {
+        margin-inline: 1.5rem; 
+        text-align: center; 
+    }
+}
+
+@media (max-width: 575px) {
+    .text-content {
+        margin-top: -20px; 
+        padding: 0.5rem;
+        font-size: 1rem;
+    }
+
+    .caring-marketing .top-panel h2 {
+        font-size: 1.8rem;
+        text-align: center;
+    }
+
+    .caring-marketing .top-panel p {
+        margin-inline: 1rem;
+        font-size: 0.9rem;
+    }
+}
 
