@@ -278,7 +278,8 @@ span {
 
 .helping-business .container .left-panel {
     margin-block: 3.699rem;
-    margin-left: var(--MARGIN-INLINE);   
+    margin-left: var(--MARGIN-INLINE);
+    
 }
     
 .helping-business .container .right-panel {
@@ -435,45 +436,46 @@ li {
     margin-bottom: 0.696rem;
 }
 
-.caring-marketing .cart-panel .cart figcaption {
-    padding-inline: 1.987rem;
-    padding-block: 0.696rem;
-    font-weight: 600;
-    line-height: 1.218rem;
-    z-index: 1rem;
-    max-width: 19rem;
-    max-height: fit-content;
-}
-
-.caring-marketing .cart-panel .cart {
-    margin: 0;
-    
-}
-
-.caring-marketing .cart-panel .cart .cart1 {
-    margin-right: 0.08rem;
-}
-
-.caring-marketing .cart-panel .cart .cart2 {
-    margin-inline: 0.15rem;
-}
-
-.caring-marketing .cart-panel .cart .cart3 {
-    margin-left: 0.08rem;
-}
-
-.caring-marketing .cart-panel {
-    margin-left: var(--MARGIN-INLINE);
-    margin-right: var(--MARGIN-INLINE);
-    margin-bottom: 3.342rem;
-}
-
 .caring-marketing .cart-panel .cart {
     padding-left: 1.043rem;
     padding-right: 1.436rem;
     padding-bottom: 1.044rem;
+} 
+.cart-panel{
+    margin-left: var(--MARGIN-INLINE);
+    margin-right: var(--MARGIN-INLINE);
+    margin-bottom: 3.342rem; 
+} 
+.card-wrapper{
+    display: flex;
+    gap: 30px;
+}
+.card-wrapper .card{
+    display: flex;
+    flex-direction: column;
+    width: 28%;
+    flex-grow: 1;
 }
 
+.card-wrapper .card1 img{width: 100%;}
+.text-content{
+    margin-top: -70px;
+    margin-inline: 1.109rem;
+    flex-grow: 1;
+    font-weight: 600;
+    line-height: 1.218rem;
+    background: var(--SECONDRY-COLOR);
+    box-shadow: 0px 2px 4px var(--BORDER-SHADOW);
+    text-align: center;
+    padding: 1rem;
+    border-radius: 0.348rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;   
+}
+.text-content a{
+    margin-top: auto;
+}
 .caring-marketing .cart-panel .cart a {
     color: var(--ACCENT-COLOR);
 }

@@ -241,6 +241,58 @@
         margin-bottom: 2rem;
     }
 }
+/* coomunity-bottom */
+/* Tablet View (max-width: 990px) */
+@media (max-width: 990px) {
+    .community-bottom-panel {
+        margin-inline: 2rem;
+    }
+
+    .community-bottom-panel .left_panel img {
+        max-height: 500px; /* Larger image for better visibility on tablets */
+        display: flex;
+        flex-direction: column;
+    }
+
+    .community-bottom-panel .right_panel h2 {
+        font-size: 2rem;
+        line-height: 2.5rem;
+    }
+
+    .community-bottom-panel .right_panel p {
+        font-size: 0.95rem;
+    }
+}
+
+/* Mobile View (max-width: 768px) */
+@media (max-width: 768px) {
+    .community-bottom-panel {
+        margin-inline: 1rem; /* More compact layout */
+       
+    }
+
+    .community-bottom-panel .left_panel img {
+        max-height: 800px;  /* Larger image for better clarity on mobile */
+        display: flex;
+        flex-direction: column;
+        margin-block: 1rem;
+    }
+
+    .community-bottom-panel .right_panel h2 {
+        font-size: 2rem;         /* Slightly larger heading for emphasis */
+        line-height: 2.5rem;
+    }
+
+    .community-bottom-panel .right_panel p {
+        font-size: 1rem;
+    }
+
+    .community-bottom-panel .right_panel a {
+        width: 100%;         /* Full-width button for better touch targets */
+        padding: 0.8rem 0;   /* Adjusted padding */
+    }
+}
+
 
 /* foooter section */
 
