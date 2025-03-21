@@ -278,42 +278,49 @@ span {
 
 .helping-business .container .left-panel {
     margin-block: 3.699rem;
-    margin-left: var(--MARGIN-INLINE);
-    
+    margin-left: var(--MARGIN-INLINE);   
 }
     
-
 .helping-business .container .right-panel {
-    margin-block: 2.784rem;
     margin-left: var(--MARGIN-INLINE);
     
 }
-
-.helping-business .container .right-panel .list2,
-.list1 {
-    gap: 1.305rem;
+.helping-business .right-panel ul{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 30px 30px;
+    padding-top: 50px;
+    margin-bottom: 1rem;
 }
 
-.helping-business .container .right-panel .list2 .list1:last-child {
-    padding-right: 7rem;
+.helping-business .right-panel ul li{
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    font-size: 28px;
+    font-weight: 700;
+    color: #222;
+}
+/* .helping-business .right-panel ul li img{
+    width:40px;
+    height:40px;
+} */
+
+.helping-business .right-panel ul li span{
+    display: block;
+    margin-top: 3px;
 }
 
-.helping-business .container .right-panel .list1 {
-    margin-top: 0.7rem;
-    margin-bottom: 2rem;
-}
-
-.helping-business .container .right-panel ul p {
+.helping-business .container .right-panel ul li p {
     color: var(--DARK-TEXT-COLOR);
     font-weight: 700;
     font-size: var(--FONT-19_49);
 }
-
 .helping-business .container .right-panel ul p span {
     color: var(--BODY-TEXT-COLOR);
     font-weight: 400;
     font-size: 1rem;
-} 
+}  
 
 /* How-Design-footer section */
 .design-footer {
