@@ -1,4 +1,5 @@
 /* ====== MEDIA QUERIES FOR RESPONSIVENESS ====== */
+/* header-section */
 
 /* Home Banner Start*/
 /* Tablet View (max-width: 990px) */
@@ -309,7 +310,7 @@
 
     .helping-business .container .right-panel {
         margin-left: 0;
-        width: 100%; /* Ensures full width for better layout */
+        width: 100%; 
     }
 
     .helping-business .right-panel ul {
@@ -317,7 +318,7 @@
         grid-template-columns: 1fr;  
         gap: 20px;
         padding-top: 30px;
-        padding-inline: 1rem; /* Added padding to improve spacing */
+        padding-inline: 1rem; 
     }
 }
 
@@ -336,7 +337,7 @@
         font-size: 24px; 
         display: flex;
         align-items: center;
-        gap: 10px;  /* Ensures content inside `li` is spaced */
+        gap: 10px;  
     }
 }
 
@@ -356,7 +357,7 @@
         font-size: 20px;  
         gap: 5px;
         align-items: center;
-        display: flex; /* Ensures list items are visible */
+        display: flex; 
     }
 
     .helping-business .container .left-panel h2 {
