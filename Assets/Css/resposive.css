@@ -1,5 +1,47 @@
 /* ====== MEDIA QUERIES FOR RESPONSIVENESS ====== */
 /* header-section */
+/* Media Query for 990px screens */
+@media (max-width: 990px) {
+    header nav ul {
+        display: none;
+    }
+
+    .nexcent {
+        display: block;
+        margin-left: 0;
+        padding-left: 1rem; /* Adds space from the left */
+        text-align: left;
+    }
+}
+
+/* Media Query for 768px screens */
+@media (max-width: 768px) {
+    header nav ul {
+        display: none;
+    }
+
+    .nexcent {
+        display: block;
+        margin-left: 0;
+        /* padding-left: 1rem; */
+        text-align: left;
+    }
+}
+
+/* Media Query for 575px screens */
+@media (max-width: 575px) {
+    header nav ul {
+        display: none;
+    }
+
+    .nexcent {
+        display: block;
+        margin-left: 0;
+        padding-left: 1rem;
+        text-align: left;
+    }
+}
+
 
 /* Home Banner Start*/
 /* Tablet View (max-width: 990px) */
@@ -694,15 +736,15 @@
 /* footer */
 /* For screens up to 990px */
 @media (max-width: 990px) {
-    .container2 {
+    .footer {
         flex-direction: column; 
     }
 
-    .container2 .logos-section {
+    .footer .logos-section {
         order: 1;  
     }
 
-    .container2 .left-panel {
+    .footer .left-panel {
         order: 2; 
         flex-direction: column; 
         align-items: center;   
@@ -716,7 +758,7 @@
 
 /* For screens up to 767px */
 @media (max-width: 767px) {
-    .container2 .logos-section {
+    .footer .logos-section {
         padding-top: 1.5rem;
     }
 
@@ -728,11 +770,11 @@
 
 /* For screens up to 545px */
 @media (max-width: 545px) {
-    .container2 .logos-section {
+    .footer .logos-section {
         padding-top: 1rem;
     }
 
-    .container2 .left-panel {
+    .footer .left-panel {
         gap: 1rem; 
     }
 

@@ -507,32 +507,32 @@ li {
 }
 
 /* footer-Section*/
-.container2 {
+.footer {
     background-color: var(--FOOTER-COLOR);
     color: var(--PRIMARY-COLOR);
     
 }
 
-.container2 .logos-section {
+.footer .logos-section {
     margin-left: 10.313rem;
     padding-top: 4rem;
     margin-right: 7.813rem;
     
 }
 
-.container2 .logos-section ul {
+.footer .logos-section ul {
     margin-bottom: 3.28rem;
 
 }
 
-.container2 .logos-section p {
+.footer .logos-section p {
     font-weight: 400;
     font-size: var(--FONT-9_74);
     margin-top: 2.629rem;
     margin-bottom: 2.5rem;  
 }
 
-.container2 .logos-section a span {
+.footer .logos-section a span {
     margin-top: 0.5rem;
 }
 /*  */
@@ -558,18 +558,18 @@ li {
 /*  */
 
 
-.container2 .left-panel h3 {
+.footer .left-panel h3 {
     font-weight: 600;
     font-size: 1.25rem;
 }
 
-.container2 .left-panel {
+.footer .left-panel {
     padding-top: 4rem;
     margin-right: 7.178rem;
     margin-left: 5.438rem;
 }
 
-.container2 .left-panel a {
+.footer .left-panel a {
     display: block;         
     margin-bottom: 0.5rem;  
     margin-top: 1rem;       
@@ -579,7 +579,7 @@ li {
     color: #fff;            
 }
 
-.container2 .left-panel a:hover {
+.footer .left-panel a:hover {
     color: #00aaff;         
 }
 
