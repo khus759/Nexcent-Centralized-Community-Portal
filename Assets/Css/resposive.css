@@ -495,7 +495,7 @@
     }
 
     .testmonials .container .right-bottom ul {
-        grid-template-columns: repeat(2, 1fr); /* 2 logos in one row */
+        grid-template-columns: repeat(2, 1fr); 
         gap: 15px;
     }
 
@@ -527,7 +527,7 @@
 
     .testmonials .container .right-bottom ul {
         display: grid;
-        grid-template-columns: repeat(2, 1fr); /* 3 logos in a row */
+        grid-template-columns: repeat(2, 1fr);
         gap: 8px;
         text-align: center;
     }
@@ -539,28 +539,48 @@
         width: 100%; 
     }
 }
-
-/* Caring Marketing */
+ /* pending */
+/* Caring Marketing */                    
 @media (max-width: 990px) {
+    .caring-marketing .top-panel {
+        text-align: center; 
+        justify-content: center; 
+        margin-inline: auto;
+    }
+
+    .caring-marketing .top-panel p {
+        margin-inline: 2rem; 
+        text-align: center; 
+    }
+
     .card-wrapper {
-        flex-direction: column; /* Stack cards vertically */
-        gap: 20px;
+        flex-direction: column; 
+        gap: 20px; 
     }
 
     .card-wrapper .card {
-        width: 100%; /* Full width for each card */
+        width: 100%; 
+        padding: 1rem; /* Added padding for consistent spacing */
+        box-sizing: border-box;
     }
 
     .card-wrapper .card img {
-        width: 100%; /* Image scales properly */
-        height: auto; /* Maintain aspect ratio */
+        width: 80%; 
+        height: auto;
+        margin: 0 auto; /* Center the image */
+        border-radius: 0.5rem; /* Optional: Adds smooth corners for a refined look */
     }
 
     .text-content {
-        margin-top: -50px; /* Adjust position for text overlay */
+        margin-top: -40px; 
         padding: 1rem;
-        width: 90%; /* Ensures text content fits within card */
+        width: 80%; 
         box-sizing: border-box;
+        margin-inline: auto; /* Center text content */
+    }
+
+    .text-content a {
+        font-size: 0.9rem; /* Smaller 'Read More' text */
     }
 }
 
@@ -568,13 +588,22 @@
     .text-content {
         margin-top: -30px; 
         padding: 0.8rem;
-        width: 100%; /* Ensures text fully adjusts */
+        width: 90%; 
         font-size: var(--FONT-11_14);
     }
 
     .caring-marketing .top-panel p {
         margin-inline: 1.5rem; 
         text-align: center; 
+    }
+
+    .card-wrapper .card img {
+        width: 70%; 
+        height: auto; 
+    }
+
+    .text-content a {
+        font-size: 0.8rem; /* Medium size for tablets */
     }
 }
 
@@ -594,5 +623,119 @@
         margin-inline: 1rem;
         font-size: 0.9rem;
     }
+
+    .card-wrapper .card img {
+        width: 60%;  
+        height: auto;
+    }
+
+    .text-content a {
+        font-size: 0.7rem; /* Smallest size for mobile */
+    }
 }
 
+
+/* ****Footer above section***** */
+@media (max-width: 990px) {
+    .get-demo h2 {
+        margin-inline: 3rem; 
+        font-size: 3rem;
+        line-height: 3.5rem;
+    }
+
+    .get-demo a {
+        margin-inline: auto; 
+        display: block; 
+        width: fit-content;
+        text-align: center; 
+    }
+}
+
+@media (max-width: 768px) {
+    .get-demo h2 {
+        margin-inline: 2rem;
+        font-size: 2.5rem;
+        line-height: 3rem;
+        padding-top: 1.5rem;
+        padding-bottom: 1.5rem;
+    }
+
+    /* .get-demo a {
+        width: 80%; 
+        text-align: center;
+    } */
+    .get-demo a {
+        margin-inline: auto; 
+        display: block; 
+        width: fit-content;
+        text-align: center; 
+    }
+}
+
+@media (max-width: 575px) {
+
+    .get-demo h2 {
+        margin-inline: 1rem;
+        font-size: 2rem;
+        line-height: 2.5rem;
+        padding-top: 1rem;
+        padding-bottom: 1rem;
+    }
+
+    .get-demo a {
+        margin-inline: auto; 
+        display: block; 
+        width: fit-content;
+        text-align: center; 
+    }
+}
+
+/* footer */
+/* For screens up to 990px */
+@media (max-width: 990px) {
+    .container2 {
+        flex-direction: column; 
+    }
+
+    .container2 .logos-section {
+        order: 1;  
+    }
+
+    .container2 .left-panel {
+        order: 2; 
+        flex-direction: column; 
+        align-items: center;   
+        gap: 1.5rem;
+    }
+    .company, .support, .up-to-date {
+        text-align: center;
+        width: 100%; 
+    }
+}
+
+/* For screens up to 767px */
+@media (max-width: 767px) {
+    .container2 .logos-section {
+        padding-top: 1.5rem;
+    }
+
+    .company, .support, .up-to-date {
+        text-align: center;
+        width: 100%; 
+    }
+}
+
+/* For screens up to 545px */
+@media (max-width: 545px) {
+    .container2 .logos-section {
+        padding-top: 1rem;
+    }
+
+    .container2 .left-panel {
+        gap: 1rem; 
+    }
+
+    .company, .support, .up-to-date {
+        padding: 0 1rem; 
+    }
+}
