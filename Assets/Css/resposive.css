@@ -245,7 +245,7 @@
     }
 
     .community-bottom-panel .left_panel img {
-        width: 100%;
+        width: 100%;-
         max-width: 600px;
         height: auto;
         border-radius: 0.5rem;
@@ -835,7 +835,7 @@
 /* For screens up to 545px */
 @media (max-width: 545px) {
     .footer .logos-section {
-        padding-top:0 1rem;
+        padding-top: 1rem;
     }
 
     .footer .left-panel {
